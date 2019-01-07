@@ -1,3 +1,4 @@
+.gitignore
 target
 .idea
-scr/test/java/com/resapi/local/
+scr\test\java\com\resapi\local\

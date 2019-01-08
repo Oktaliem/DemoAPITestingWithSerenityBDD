@@ -1,6 +1,15 @@
 # DemoAPITestingWithSerenityBDD
 REST API Testing with SerenityBDD + REST Assured example
 
+## Run the Test Via Command Line
+Check your TestRunner folder for cucumber options
+
+i.e. 
+```
+- mvn clean verify
+- mvn clean verify -Dit.test=com.restapi.github.features.* -Dtags=API:PaymentAPI -Dskip-test=true
+```
+
 ## SerenityBDD HTML Report Path
 ```
 {your_project_path}/target/site/serenity/index.html

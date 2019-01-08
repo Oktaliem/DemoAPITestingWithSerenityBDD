@@ -10,7 +10,7 @@ Sample 1 :
 ![serenity bdd rest assured html report 1](https://user-images.githubusercontent.com/26521948/50804702-34fc1280-132a-11e9-99ba-6c579ba63ad6.png)
 
 Sample 2 :
-![serenity bdd rest assured html report 2](https://user-images.githubusercontent.com/26521948/50804703-34fc1280-132a-11e9-81b6-3a5fa7dbdad8.png)
+![serenity bdd rest assured html report 2](https://user-images.githubusercontent.com/26521948/50804791-82787f80-132a-11e9-99cd-d7e70370c2b0.png)
 
 Sample 3 :
 ![serenity bdd rest assured html report 3](https://user-images.githubusercontent.com/26521948/50804704-3594a900-132a-11e9-9875-7d1c767c4f3e.png)

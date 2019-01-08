@@ -207,43 +207,12 @@
                 </configuration>
             </plugin>
 
-            <!--<plugin>
-                <artifactId>maven-failsafe-plugin</artifactId>
-                <version>2.22.1</version>
-                <configuration>
-                    <includes>
-                        <include>**/*Test.java</include>
-                        <include>**/Test*.java</include>
-                        <include>**/*TestSuite.java</include>
-                        <include>**/When*.java</include>
-                    </includes>
-                    <systemPropertyVariables>
-                        <webdriver.base.url>${webdriver.base.url}</webdriver.base.url>
-                    </systemPropertyVariables>
-                    <parallel>classes</parallel>
-                    <threadCount>${parallel.tests}</threadCount>
-                    <forkCount>${parallel.tests}</forkCount>
-                </configuration>
-                <executions>
-                    <execution>
-                        <goals>
-                            <goal>integration-test</goal>
-                            <goal>verify</goal>
-                        </goals>
-                    </execution>
-                </executions>
-            </plugin>-->
-
             <plugin>
                 <artifactId>maven-failsafe-plugin</artifactId>
                 <version>2.18.1</version>
                 <configuration>
                     <forkMode>never</forkMode>
                     <properties>
-                        <!--<property>
-                            <name>listener</name>
-                            <value>com.percobaan.junitlistener.TestListener</value>
-                        </property>-->
                     </properties>
                     <includes>
                         <include>**/features/**/*.java</include>

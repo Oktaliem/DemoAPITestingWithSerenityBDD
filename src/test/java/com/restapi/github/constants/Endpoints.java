@@ -1,7 +1,12 @@
 package com.restapi.github.constants;
 
-public class Endpoints {
+/**
+ * @author Okta Liem
+ */
 
-    public static final String Void = "payment/void";
-    public static final String Refund = "payment/void";
+public interface Endpoints {
+
+    String GET_VOID_TRANSACTION = "get/void";
+    String POST_VOID_TRANSACTION = "post/void";
 }
+

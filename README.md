@@ -4,8 +4,8 @@ REST API Testing with SerenityBDD + REST Assured example
 Folders :
 1. Features : Place for Test suits & Test Cases
 2. Steps : Serenity BDD/REST Assured test steps and assertion
-3. Model : To set up test data model
-4. Databuilder : To construct request body in JSON format
+3. Model : Set up test data model
+4. Databuilder : Construct request body in JSON format
 
 ## Run the Test Via Command Line
 

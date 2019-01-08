@@ -1,6 +1,19 @@
 # DemoAPITestingWithSerenityBDD
 REST API Testing with SerenityBDD + REST Assured example
 
+## SerenityBDD HTML Report Path
+```
+{your_project_path}/target/site/serenity/index.html
+```
+
+Sample 1 :
+![serenity bdd cucumber html report sample 1](https://user-images.githubusercontent.com/26521948/50804575-8d7ee000-1329-11e9-9b02-c4fb5f852b5a.png)
+
+Sample 2 :
+![serenity bdd cucumber html report sample 2](https://user-images.githubusercontent.com/26521948/50804574-8ce64980-1329-11e9-9a2e-087a5a15efd2.png)
+
+Sample 3 :
+![serenity bdd cucumber html report sample 3](https://user-images.githubusercontent.com/26521948/50804576-8d7ee000-1329-11e9-8afd-8b43c44cac75.png)
 
 
 ## Serenity BDD Testing Log
@@ -324,16 +337,4 @@ Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
 
 ```
 
-## SerenityBDD HTML Report Path
-```
-{your_project_path}/target/site/serenity/index.html
-```
 
-Sample 1 :
-![serenity bdd cucumber html report sample 1](https://user-images.githubusercontent.com/26521948/50804575-8d7ee000-1329-11e9-9b02-c4fb5f852b5a.png)
-
-Sample 2 :
-![serenity bdd cucumber html report sample 2](https://user-images.githubusercontent.com/26521948/50804574-8ce64980-1329-11e9-9a2e-087a5a15efd2.png)
-
-Sample 3 :
-![serenity bdd cucumber html report sample 3](https://user-images.githubusercontent.com/26521948/50804576-8d7ee000-1329-11e9-8afd-8b43c44cac75.png)

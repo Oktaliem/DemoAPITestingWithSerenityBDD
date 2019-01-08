@@ -1,8 +1,13 @@
 # DemoAPITestingWithSerenityBDD
 REST API Testing with SerenityBDD + REST Assured example
 
+Folders :
+1. Features : Test suit
+2. Steps : Serenity BDD/REST Assured test steps and assertion
+3. Model : To set up test data model
+4. Databuilder : To construct request body in JSON format
+
 ## Run the Test Via Command Line
-Check your TestRunner folder for cucumber options
 
 i.e. 
 ```

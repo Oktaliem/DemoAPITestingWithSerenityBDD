@@ -7,14 +7,13 @@ REST API Testing with SerenityBDD + REST Assured example
 ```
 
 Sample 1 :
-![serenity bdd cucumber html report sample 1](https://user-images.githubusercontent.com/26521948/50804575-8d7ee000-1329-11e9-9b02-c4fb5f852b5a.png)
+![serenity bdd rest assured html report 1](https://user-images.githubusercontent.com/26521948/50804702-34fc1280-132a-11e9-99ba-6c579ba63ad6.png)
 
 Sample 2 :
-![serenity bdd cucumber html report sample 2](https://user-images.githubusercontent.com/26521948/50804574-8ce64980-1329-11e9-9a2e-087a5a15efd2.png)
+![serenity bdd rest assured html report 2](https://user-images.githubusercontent.com/26521948/50804703-34fc1280-132a-11e9-81b6-3a5fa7dbdad8.png)
 
 Sample 3 :
-![serenity bdd cucumber html report sample 3](https://user-images.githubusercontent.com/26521948/50804576-8d7ee000-1329-11e9-8afd-8b43c44cac75.png)
-
+![serenity bdd rest assured html report 3](https://user-images.githubusercontent.com/26521948/50804704-3594a900-132a-11e9-9875-7d1c767c4f3e.png)
 
 ## Serenity BDD Testing Log
 

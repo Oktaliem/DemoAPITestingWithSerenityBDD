@@ -8,5 +8,6 @@ public interface Endpoints {
 
     String GET_VOID_TRANSACTION = "get/void";
     String POST_VOID_TRANSACTION = "post/void";
+    String GET_EMPLOYEE = "api/v1/employees";
 }
 

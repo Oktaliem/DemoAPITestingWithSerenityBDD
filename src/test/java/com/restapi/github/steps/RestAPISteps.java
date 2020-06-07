@@ -29,6 +29,10 @@ public class RestAPISteps {
             .setBaseUri(StepsUtil.getAPIURL())
             .build();
 
+    RequestSpecification employeeRequestSpec = new RequestSpecBuilder()
+            .setBaseUri(StepsUtil.getEmployeeAPI())
+            .build();
+
     @Step
     public void ableToGetVoidPaymentListSuccessfully() throws Exception {
         String response = getVoidPaymentList();
@@ -105,5 +109,21 @@ public class RestAPISteps {
                 .log().all()
                 .extract().asString();
         return response;
+    }
+
+    @Step
+    public void getAllEmployeeData() throws Exception {
+        String response = getEmployee();
+    }
+
+    private String getEmployee() throws Exception {
+        return SerenityRest.rest().spec(employeeRequestSpec)
+                .given().relaxedHTTPSValidation()
+                .log().all()
+                .when()
+                .get(Endpoints.GET_EMPLOYEE)
+                .then()
+                .log().all()
+                .extract().asString();
     }
 }
